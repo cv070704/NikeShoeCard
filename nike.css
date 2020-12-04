@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+img {
+  width: 200px;
+}
+
+#card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 40px -20px rgba(0,0,0,.4);
+  border: 2px solid #444444
+}
+
+#wrapper{
+  width: 100vw;
+  height: 100vh;
+  background: #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faded {
+  color:#0df908;
+  font-family: "Times New Roman";
+  background-color: #dfdfdf;
+}
+
+.buttonclass {
+align-items: center;
+color: green;
+background-color:#D3D3D3;
+border-radius: 5px;
+border: 5px solid ##D3D3D3;
+padding: 10px 15px
+}
+
+#padId1 {
+  padding: 20px;
+
+}
+#padId2 {
+  padding: 20px;
+}
+#description {
+  font-size: 20px
+  
+}
+
+#nikeLogo {
+  border-radius: 100%;
+  width: 60px
+}
